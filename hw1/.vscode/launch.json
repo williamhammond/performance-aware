@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "hw01",
+            "type": "lldb",
+            "preLaunchTask": "build hw1",
+            "request": "launch",
+            "program": "${workspaceFolder}/zig-out/bin/hw1",
+            "cwd": "${workspaceFolder}",
+        }
+    ]
+}

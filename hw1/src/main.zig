@@ -15,7 +15,7 @@ pub fn main() !void {
     var file = try std.fs.cwd().openFile(file_path, .{});
     defer file.close();
 
-    std.debug.print("bits 16!\n\n", .{});
+    std.debug.print("bits 16\n\n", .{});
 
     while (true) {
         const b1 = file.reader().readByte() catch |err| switch (err) {

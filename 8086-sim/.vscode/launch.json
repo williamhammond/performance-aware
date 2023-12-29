@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "hw01",
+            "name": "8086-sim",
             "type": "lldb",
-            "preLaunchTask": "build hw1",
+            "preLaunchTask": "build 8086-sim",
             "request": "launch",
-            "program": "${workspaceFolder}/zig-out/bin/hw1",
+            "program": "${workspaceFolder}/zig-out/bin/8086-sim",
             "cwd": "${workspaceFolder}",
         }
     ]

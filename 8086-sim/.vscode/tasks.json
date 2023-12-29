@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build hw1",
+            "label": "build 8086-sim",
             "type": "shell",
             "command": "zig build",
             "problemMatcher": [],
